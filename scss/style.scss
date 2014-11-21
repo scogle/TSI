@@ -1,0 +1,21 @@
+@import "daterangepicker-bs3";
+
+body {
+	margin: 15px;
+	.panel {
+		//max-width: 800px;
+		margin: auto;
+		.panel-heading {
+			h1.panel-title { display: inline-block; }
+		}
+		.input-group {
+			width: 300px;
+			.form-control { font-weight: bold; }
+		}
+		.viz-container {
+			margin-top: 20px;
+		}
+
+		.calendar-date td { max-width: 10px; }
+	}
+}
